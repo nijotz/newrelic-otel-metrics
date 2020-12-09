@@ -109,3 +109,8 @@ npm install --save @opentelemetry/exporter-prometheus
     ```bash
     docker run --rm -p 9090:9090 -v `pwd`/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus:v2.20.1
     ```
+
+## View your Prometheus data in New Relic
+
+Follow [this](https://docs.newrelic.com/docs/integrations/prometheus-integrations/view-query-data/view-query-your-prometheus-data)
+guide to view your data
