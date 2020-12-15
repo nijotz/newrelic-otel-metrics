@@ -1,6 +1,5 @@
 const { MeterProvider } = require('@opentelemetry/metrics')
 const { PrometheusExporter } = require('@opentelemetry/exporter-prometheus')
-const listEndpoints = require('express-list-endpoints')
 
 const exporter = new PrometheusExporter(
   {
