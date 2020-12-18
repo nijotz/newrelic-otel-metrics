@@ -78,6 +78,7 @@ npm install --save @opentelemetry/exporter-prometheus
 1. Run the server
 
     ```bash
+    $ node index.js
     ...
     Example app listening on port 8000!
     Prometheus endpoint: http://localhost:8080/metrics
